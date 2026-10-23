@@ -1,0 +1,71 @@
+{
+    "HomePage": {
+        "eyebrow": "MINING · OPERATIONS · EXCELLENCE",
+        "titleLine1": "Building the",
+        "titleHighlight": "resources",
+        "titleLine2": "that move the world.",
+        "description": "Vertex Mining is committed to responsible operations, operational excellence, and creating lasting value across the mining industry.",
+        "exploreServices": "Explore our services",
+        "contactTeam": "Talk to our team",
+        "discoverMore": "Discover more",
+        "footerTagline": "Precision · Performance · Responsibility"
+    },
+    "Navigation": {
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "capabilities": "Capabilities",
+        "contact": "Contact us"
+    },
+    "AboutSection": {
+        "eyebrow": "WHO WE ARE",
+        "titleLine1": "Building a foundation for",
+        "titleHighlight": "lasting progress.",
+        "description": "At Vertex Mining, we believe responsible operations and disciplined execution are essential to creating lasting value. Our approach focuses on operational excellence, thoughtful resource management, and a commitment to continuous improvement.",
+        "learnMore": "Discover Vertex Mining",
+        "responsibilityTitle": "Responsibility",
+        "responsibilityDescription": "A considered approach to resources and operations.",
+        "precisionTitle": "Precision",
+        "precisionDescription": "Attention to detail at every stage of execution.",
+        "performanceTitle": "Performance",
+        "performanceDescription": "A focus on efficiency, reliability, and improvement.",
+        "imageAlt": "Industrial processing facilities",
+        "imageCaption": "Our approach",
+        "imageSubcaption": "Built on responsibility."
+    },
+
+    "ServicesSection": {
+        "eyebrow": "WHAT WE DO",
+        "titleLine1": "Integrated expertise.",
+        "titleHighlight": "Practical solutions.",
+        "description": "From mining operations to project delivery, our services focus on operational discipline, efficient execution, and responsible resource management.",
+        "learnMore": "Explore service",
+        "contactTitle": "Let's discuss your project.",
+        "contactDescription": "Tell us about your operational needs and project goals. Our team can discuss the next steps with you.",
+        "contactButton": "Contact our team",
+        "mining": {
+            "title": "Mining Operations",
+            "description": "Structured operational support focused on productivity, safety, and reliable execution."
+        },
+        "processing": {
+            "title": "Mineral Processing",
+            "description": "Processing solutions designed around material handling, operational efficiency, and quality."
+        },
+        "equipment": {
+            "title": "Equipment & Infrastructure",
+            "description": "Support for equipment planning, site infrastructure, and operational readiness."
+        },
+        "consulting": {
+            "title": "Operational Consulting",
+            "description": "Practical guidance to improve workflows, performance, and operational decision-making."
+        },
+        "environment": {
+            "title": "Environmental Responsibility",
+            "description": "Considerate resource management with attention to environmental practices and compliance."
+        },
+        "management": {
+            "title": "Project Management",
+            "description": "Coordinated planning, delivery, and oversight across project activities and milestones."
+        }
+    }
+}

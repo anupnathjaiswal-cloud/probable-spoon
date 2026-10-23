@@ -1,0 +1,73 @@
+{
+    "HomePage": {
+        "eyebrow": "MINES · OPÉRATIONS · EXCELLENCE",
+        "titleLine1": "Bâtir les",
+        "titleHighlight": "ressources",
+        "titleLine2": "qui font avancer le monde.",
+        "description": "Vertex Mining s'engage en faveur d'opérations responsables, de l'excellence opérationnelle et de la création de valeur durable dans l'industrie minière.",
+        "exploreServices": "Découvrir nos services",
+        "contactTeam": "Parler à notre équipe",
+        "discoverMore": "En découvrir davantage",
+        "footerTagline": "PRÉCISION · PERFORMANCE · RESPONSABILITÉ"
+    },
+    "Navigation": {
+        "about": "À propos",
+        "services": "Services",
+        "projects": "Projets",
+        "capabilities": "Expertises",
+        "contact": "Contactez-nous"
+    },
+    "AboutSection": {
+        "eyebrow": "QUI NOUS SOMMES",
+        "titleLine1": "Construire les bases d’un",
+        "titleHighlight": "progrès durable.",
+        "description": "Chez Vertex Mining, nous pensons que des opérations responsables et une exécution rigoureuse sont essentielles à la création de valeur durable. Notre approche privilégie l’excellence opérationnelle, une gestion réfléchie des ressources et l’amélioration continue.",
+        "learnMore": "Découvrir Vertex Mining",
+        "responsibilityTitle": "Responsabilité",
+        "responsibilityDescription": "Une approche réfléchie des ressources et des opérations.",
+        "precisionTitle": "Précision",
+        "precisionDescription": "Le souci du détail à chaque étape de l’exécution.",
+        "performanceTitle": "Performance",
+        "performanceDescription": "L’efficacité, la fiabilité et l’amélioration continue.",
+        "imageAlt": "Installations industrielles de traitement",
+        "imageCaption": "Notre approche",
+        "imageSubcaption": "La responsabilité avant tout."
+    },
+
+    "ServicesSection": {
+        "eyebrow": "NOS EXPERTISES",
+        "titleLine1": "Une expertise intégrée.",
+        "titleHighlight": "Des solutions concrètes.",
+        "description": "Des opérations minières à la réalisation des projets, nos services privilégient la rigueur opérationnelle, l’efficacité d’exécution et une gestion responsable des ressources.",
+        "learnMore": "Découvrir le service",
+
+        "contactTitle": "Parlons de votre projet.",
+        "contactDescription": "Présentez-nous vos besoins opérationnels et vos objectifs. Notre équipe pourra échanger avec vous sur les prochaines étapes.",
+        "contactButton": "Contacter notre équipe",
+
+        "mining": {
+            "title": "Opérations minières",
+            "description": "Un accompagnement opérationnel axé sur la productivité, la sécurité et la fiabilité de l’exécution."
+        },
+        "processing": {
+            "title": "Traitement des minerais",
+            "description": "Des solutions de traitement adaptées à la manutention des matériaux, à l’efficacité opérationnelle et à la qualité."
+        },
+        "equipment": {
+            "title": "Équipements et infrastructures",
+            "description": "Un accompagnement pour la planification des équipements, les infrastructures du site et la préparation opérationnelle."
+        },
+        "consulting": {
+            "title": "Conseil opérationnel",
+            "description": "Des recommandations pratiques pour améliorer les processus, les performances et les décisions opérationnelles."
+        },
+        "environment": {
+            "title": "Responsabilité environnementale",
+            "description": "Une gestion réfléchie des ressources, attentive aux pratiques environnementales et à la conformité."
+        },
+        "management": {
+            "title": "Gestion de projet",
+            "description": "Une planification, une coordination et un suivi structurés des activités et des étapes du projet."
+        }
+    }
+}
