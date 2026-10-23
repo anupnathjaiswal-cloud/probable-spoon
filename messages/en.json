@@ -67,5 +67,73 @@
             "title": "Project Management",
             "description": "Coordinated planning, delivery, and oversight across project activities and milestones."
         }
+    },
+
+    "ProjectsSection": {
+        "eyebrow": "OUR PROJECTS",
+        "titleLine1": "Work shaped by",
+        "titleHighlight": "purpose and precision.",
+        "description": "Explore our approach to mining, infrastructure, and operational excellence. Project information can be expanded as verified case studies become available.",
+        "viewAll": "View all projects",
+        "project1": {
+            "category": "Mining operations",
+            "title": "Mining Operations",
+            "description": "An overview of operational planning, site coordination, and disciplined execution."
+        },
+        "project2": {
+            "category": "Industrial infrastructure",
+            "title": "Infrastructure & Facilities",
+            "description": "A look at the infrastructure and facilities that support industrial operations."
+        },
+        "project3": {
+            "category": "Equipment & engineering",
+            "title": "Engineering & Equipment",
+            "description": "Explore equipment planning and engineering considerations for complex operations."
+        }
+    },
+
+    "CapabilitiesSection": {
+        "eyebrow": "OUR CAPABILITIES",
+        "titleLine1": "Expertise built around",
+        "titleHighlight": "operational excellence.",
+        "description": "A structured approach to operations, technical coordination, resource management, and responsible working practices.",
+        "learnMore": "Explore our capabilities",
+        "operations": {
+            "title": "Operational Coordination",
+            "description": "Planning and coordination approaches that support organized, efficient operations."
+        },
+        "engineering": {
+            "title": "Technical & Engineering Support",
+            "description": "Technical assessment and engineering coordination aligned with defined project requirements."
+        },
+        "resources": {
+            "title": "Resource Management",
+            "description": "Considered planning and monitoring of materials, equipment, and operational resources."
+        },
+        "safety": {
+            "title": "Safety & Responsibility",
+            "description": "A commitment to responsible working practices, risk awareness, and applicable safety requirements."
+        }
+    },
+
+    "ContactPage": {
+        "eyebrow": "GET IN TOUCH",
+        "titleLine1": "Let's discuss",
+        "titleHighlight": "your next project.",
+        "description": "Contact our team to discuss your project requirements, operational needs, or potential collaboration.",
+        "formTitle": "Send us a message",
+        "formDescription": "Complete the form below and, once our contact service is configured, your enquiry can be sent securely to our team.",
+        "name": "Full name",
+        "namePlaceholder": "Enter your full name",
+        "email": "Email address",
+        "emailPlaceholder": "you@company.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "How can we help?",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your enquiry...",
+        "submit": "Send message",
+        "sending": "Sending...",
+        "success": "Your message has been submitted successfully.",
+        "error": "We couldn't send your message. Please try again later."
     }
 }

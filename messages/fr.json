@@ -69,5 +69,73 @@
             "title": "Gestion de projet",
             "description": "Une planification, une coordination et un suivi structurés des activités et des étapes du projet."
         }
+    },
+
+    "ProjectsSection": {
+        "eyebrow": "NOS PROJETS",
+        "titleLine1": "Des projets guidés par",
+        "titleHighlight": "le sens et la précision.",
+        "description": "Découvrez notre approche des opérations minières, des infrastructures et de l’excellence opérationnelle. Les informations pourront être enrichies au fur et à mesure de la validation des études de cas.",
+        "viewAll": "Voir tous les projets",
+        "project1": {
+            "category": "Opérations minières",
+            "title": "Opérations minières",
+            "description": "Un aperçu de la planification opérationnelle, de la coordination des sites et de la rigueur d’exécution."
+        },
+        "project2": {
+            "category": "Infrastructures industrielles",
+            "title": "Infrastructures et installations",
+            "description": "Un aperçu des infrastructures et installations qui soutiennent les opérations industrielles."
+        },
+        "project3": {
+            "category": "Équipements et ingénierie",
+            "title": "Ingénierie et équipements",
+            "description": "Découvrez la planification des équipements et les enjeux d’ingénierie liés aux opérations complexes."
+        }
+    },
+
+    "CapabilitiesSection": {
+        "eyebrow": "NOS CAPACITÉS",
+        "titleLine1": "Une expertise au service de",
+        "titleHighlight": "l’excellence opérationnelle.",
+        "description": "Une approche structurée des opérations, de la coordination technique, de la gestion des ressources et des pratiques de travail responsables.",
+        "learnMore": "Découvrir nos capacités",
+        "operations": {
+            "title": "Coordination opérationnelle",
+            "description": "Des méthodes de planification et de coordination favorisant des opérations organisées et efficaces."
+        },
+        "engineering": {
+            "title": "Assistance technique et ingénierie",
+            "description": "Une évaluation technique et une coordination en ingénierie adaptées aux exigences définies des projets."
+        },
+        "resources": {
+            "title": "Gestion des ressources",
+            "description": "Une planification et un suivi réfléchis des matériaux, des équipements et des ressources opérationnelles."
+        },
+        "safety": {
+            "title": "Sécurité et responsabilité",
+            "description": "Un engagement envers des pratiques de travail responsables, la sensibilisation aux risques et le respect des exigences de sécurité applicables."
+        }
+    },
+
+    "ContactPage": {
+        "eyebrow": "CONTACTEZ-NOUS",
+        "titleLine1": "Parlons de",
+        "titleHighlight": "votre prochain projet.",
+        "description": "Contactez notre équipe pour discuter de vos besoins, de vos exigences opérationnelles ou d'une éventuelle collaboration.",
+        "formTitle": "Envoyez-nous un message",
+        "formDescription": "Remplissez le formulaire ci-dessous. Une fois le service de contact configuré, votre demande pourra être envoyée en toute sécurité à notre équipe.",
+        "name": "Nom complet",
+        "namePlaceholder": "Saisissez votre nom complet",
+        "email": "Adresse e-mail",
+        "emailPlaceholder": "vous@entreprise.com",
+        "subject": "Objet",
+        "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+        "message": "Message",
+        "messagePlaceholder": "Décrivez votre demande...",
+        "submit": "Envoyer le message",
+        "sending": "Envoi en cours...",
+        "success": "Votre message a été envoyé avec succès.",
+        "error": "Nous n'avons pas pu envoyer votre message. Veuillez réessayer plus tard."
     }
 }
