@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type SubmitEvent } from "react";
 import { useTranslations } from "next-intl";
 
 type FormStatus = "idle" | "submitting" | "success" | "error";
@@ -9,12 +9,18 @@ export default function ContactForm() {
     const t = useTranslations("ContactPage");
     const [status, setStatus] = useState<FormStatus>("idle");
 
-    async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    console.log(
+        `\n ${"_".repeat(20)} Contact page: ${"_".repeat(20)}\n ${t.name}`,
+    );
+
+    async function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
         event.preventDefault();
-        setStatus("submitting");
 
         const form = event.currentTarget;
+        console.log("Form: ", form);
+
         const formData = new FormData(form);
+        console.log("FormData: ", formData);
 
         const payload = {
             name: String(formData.get("name") ?? "").trim(),
@@ -23,21 +29,37 @@ export default function ContactForm() {
             message: String(formData.get("message") ?? "").trim(),
         };
 
+        // Check exactly what is being collected
+        console.log("Contact form payload:", payload.email, payload.name);
+
+        setStatus("submitting");
+
         try {
             const response = await fetch("/api/contact", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {
+                    "Content-Type": "application/json",
+                },
                 body: JSON.stringify(payload),
             });
 
+            const result = await response.json().catch(() => null);
+
+            console.log("Contact API status:", response.status);
+
+            console.log(`${"+ ".repeat(20)} Contact-Result ${"+ ".repeat(20)}`);
+            console.log(result);
+
             if (!response.ok) {
+                console.error("Contact API error:", result);
                 setStatus("error");
                 return;
             }
 
             form.reset();
             setStatus("success");
-        } catch {
+        } catch (error) {
+            console.error("Contact form request failed:", error);
             setStatus("error");
         }
     }
@@ -86,7 +108,6 @@ export default function ContactForm() {
                     />
                 </div>
             </div>
-
             <div>
                 <label
                     htmlFor="contact-subject"
@@ -104,7 +125,6 @@ export default function ContactForm() {
                     placeholder={t("subjectPlaceholder")}
                 />
             </div>
-
             <div>
                 <label
                     htmlFor="contact-message"
@@ -122,7 +142,6 @@ export default function ContactForm() {
                     placeholder={t("messagePlaceholder")}
                 />
             </div>
-
             <button
                 type="submit"
                 disabled={status === "submitting"}
@@ -130,7 +149,6 @@ export default function ContactForm() {
             >
                 {status === "submitting" ? t("sending") : t("submit")}
             </button>
-
             <div aria-live="polite" role="status">
                 {status === "success" && (
                     <p className="text-sm text-green-800">{t("success")}</p>

@@ -33,18 +33,15 @@
         "imageCaption": "Notre approche",
         "imageSubcaption": "La responsabilité avant tout."
     },
-
     "ServicesSection": {
         "eyebrow": "NOS EXPERTISES",
         "titleLine1": "Une expertise intégrée.",
         "titleHighlight": "Des solutions concrètes.",
         "description": "Des opérations minières à la réalisation des projets, nos services privilégient la rigueur opérationnelle, l’efficacité d’exécution et une gestion responsable des ressources.",
         "learnMore": "Découvrir le service",
-
         "contactTitle": "Parlons de votre projet.",
         "contactDescription": "Présentez-nous vos besoins opérationnels et vos objectifs. Notre équipe pourra échanger avec vous sur les prochaines étapes.",
         "contactButton": "Contacter notre équipe",
-
         "mining": {
             "title": "Opérations minières",
             "description": "Un accompagnement opérationnel axé sur la productivité, la sécurité et la fiabilité de l’exécution."
@@ -70,36 +67,92 @@
             "description": "Une planification, une coordination et un suivi structurés des activités et des étapes du projet."
         }
     },
-
     "ProjectsSection": {
         "eyebrow": "NOS PROJETS",
         "titleLine1": "Des projets guidés par",
         "titleHighlight": "le sens et la précision.",
-        "description": "Découvrez notre approche des opérations minières, des infrastructures et de l’excellence opérationnelle. Les informations pourront être enrichies au fur et à mesure de la validation des études de cas.",
+        "description": "Découvrez notre approche des opérations minières, des infrastructures et de l’excellence opérationnelle.",
         "viewAll": "Voir tous les projets",
         "project1": {
             "category": "Opérations minières",
             "title": "Opérations minières",
-            "description": "Un aperçu de la planification opérationnelle, de la coordination des sites et de la rigueur d’exécution."
+            "description": "Un aperçu de la planification opérationnelle, de la coordination des sites et d’une exécution rigoureuse."
         },
         "project2": {
             "category": "Infrastructures industrielles",
             "title": "Infrastructures et installations",
-            "description": "Un aperçu des infrastructures et installations qui soutiennent les opérations industrielles."
+            "description": "Un aperçu des infrastructures et des installations qui soutiennent les opérations industrielles."
         },
         "project3": {
             "category": "Équipements et ingénierie",
             "title": "Ingénierie et équipements",
             "description": "Découvrez la planification des équipements et les enjeux d’ingénierie liés aux opérations complexes."
+        },
+        "portfolio": {
+            "eyebrow": "Nos domaines d’activité",
+            "title": "Ressources, énergie et infrastructures",
+            "description": "Découvrez nos activités dans l’exploration minérale, l’exploitation minière, l’énergie et les infrastructures.",
+            "gold": {
+                "imageAlt": "Image illustrative de l’exploration aurifère",
+                "category": "Exploration aurifère",
+                "title": "Exploration aurifère",
+                "description": "Intérêts d’exploration aurifère à Masizi Maseyu et Mbarara Busheyni, ainsi que dans l’exploitation aurifère alluviale en coentreprise."
+            },
+            "minerals": {
+                "imageAlt": "Image illustrative de l’exploration minérale",
+                "category": "Exploration minérale",
+                "title": "Exploration minérale",
+                "description": "Exploration du minerai de fer et projet d’exploration du charbon dans la vallée de Gwembe."
+            },
+            "energy": {
+                "imageAlt": "Image illustrative de la production d’énergie",
+                "category": "Énergie",
+                "title": "Énergies renouvelables et production électrique",
+                "description": "Activités liées aux énergies renouvelables, à la centrale électrique de Kivu (56 MW) et aux projets hydroélectriques."
+            },
+            "infrastructure": {
+                "imageAlt": "Image illustrative d’un bâtiment commercial moderne",
+                "category": "Infrastructures",
+                "title": "Kigali Financial Business Square",
+                "description": "Activités liées aux infrastructures commerciales et au développement."
+            },
+            "industrial": {
+                "imageAlt": "Image illustrative d’une installation industrielle",
+                "category": "Solutions industrielles",
+                "title": "Carrières et solutions de bétonnage",
+                "description": "Activités de carrière industrielle, solutions et produits de bétonnage, ainsi que projets hydromécaniques et de tuyauterie."
+            },
+            "trading": {
+                "imageAlt": "Image illustrative du transport et de la logistique",
+                "category": "Négoce minéral",
+                "title": "Négoce des minéraux 3T",
+                "description": "Activités liées au négoce de l’étain, du tantale et du tungstène, ainsi qu’à l’exportation et à la logistique."
+            }
+        },
+        "mining": {
+            "eyebrow": "Expertise technique",
+            "title": "Capacités minières",
+            "description": "Des compétences couvrant l’exploration, la planification technique, le traitement des minerais et le développement responsable des ressources.",
+            "items": {
+                "licensing": "Licences, autorisations et engagement des parties prenantes",
+                "exploration": "Exploration minérale en zones vierges et zones déjà exploitées",
+                "operations": "Exploitation minière : minerai de fer, granulats, or et minéraux 3T",
+                "planning": "Planification minière, topographie, géologie et estimation des ressources",
+                "processing": "Concassage, criblage et traitement des matériaux",
+                "logistics": "Exportation, logistique et négoce des matières premières",
+                "engineering": "Solutions de pointe en ingénierie géotechnique"
+            }
         }
     },
-
     "CapabilitiesSection": {
         "eyebrow": "NOS CAPACITÉS",
         "titleLine1": "Une expertise au service de",
         "titleHighlight": "l’excellence opérationnelle.",
         "description": "Une approche structurée des opérations, de la coordination technique, de la gestion des ressources et des pratiques de travail responsables.",
         "learnMore": "Découvrir nos capacités",
+        "contactTitle": "Discutons de votre projet.",
+        "contactDescription": "Parlez-nous de vos besoins opérationnels et des objectifs de votre projet. Notre équipe pourra discuter avec vous des prochaines étapes.",
+        "contactButton": "Contacter notre équipe",
         "operations": {
             "title": "Coordination opérationnelle",
             "description": "Des méthodes de planification et de coordination favorisant des opérations organisées et efficaces."
@@ -117,7 +170,6 @@
             "description": "Un engagement envers des pratiques de travail responsables, la sensibilisation aux risques et le respect des exigences de sécurité applicables."
         }
     },
-
     "ContactPage": {
         "eyebrow": "CONTACTEZ-NOUS",
         "titleLine1": "Parlons de",
@@ -137,5 +189,20 @@
         "sending": "Envoi en cours...",
         "success": "Votre message a été envoyé avec succès.",
         "error": "Nous n'avons pas pu envoyer votre message. Veuillez réessayer plus tard."
+    },
+    "Footer": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "projects": "Projets",
+        "capabilities": "Expertises",
+        "contact": "Contact",
+        "description": "Découvrez nos services, nos projets et nos expertises.",
+        "quickLinks": "Liens rapides",
+        "getInTouch": "Contactez-nous",
+        "contactDescription": "Vous avez un projet ou une question ? Contactez notre équipe.",
+        "contactCta": "Nous contacter",
+        "rights": "Tous droits réservés.",
+        "switchLanguage": "Changer de langue pour {language}"
     }
 }

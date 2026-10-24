@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "../../../i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 import {
     ArrowRight,
     Pickaxe,
@@ -9,7 +9,7 @@ import {
     HardHat,
     ChartNoAxesCombined,
 } from "lucide-react";
-import Container from "../../../components/layout/Container";
+import Container from "@/src/components/layout/Container";
 
 const services = [
     { key: "mining", number: "01", icon: Pickaxe },

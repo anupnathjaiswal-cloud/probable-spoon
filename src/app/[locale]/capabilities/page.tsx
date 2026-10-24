@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "../../../i18n/navigation";
-import Container from "../../../components/layout/Container";
+import { Link } from "@/src/i18n/navigation";
+import Container from "@/src/components/layout/Container";
 import {
     ArrowRight,
     Pickaxe,

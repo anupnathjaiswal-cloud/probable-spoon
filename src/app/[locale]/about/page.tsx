@@ -1,4 +1,4 @@
-import About from "../../../components/home/About";
+import About from "@/src/components/home/About";
 
 export default function AboutPage() {
     // const t = await getTranslations("About");

@@ -33,7 +33,6 @@
         "imageCaption": "Our approach",
         "imageSubcaption": "Built on responsibility."
     },
-
     "ServicesSection": {
         "eyebrow": "WHAT WE DO",
         "titleLine1": "Integrated expertise.",
@@ -68,12 +67,11 @@
             "description": "Coordinated planning, delivery, and oversight across project activities and milestones."
         }
     },
-
     "ProjectsSection": {
         "eyebrow": "OUR PROJECTS",
         "titleLine1": "Work shaped by",
         "titleHighlight": "purpose and precision.",
-        "description": "Explore our approach to mining, infrastructure, and operational excellence. Project information can be expanded as verified case studies become available.",
+        "description": "Explore our approach to mining, infrastructure, and operational excellence.",
         "viewAll": "View all projects",
         "project1": {
             "category": "Mining operations",
@@ -89,15 +87,72 @@
             "category": "Equipment & engineering",
             "title": "Engineering & Equipment",
             "description": "Explore equipment planning and engineering considerations for complex operations."
+        },
+        "portfolio": {
+            "eyebrow": "Our areas of activity",
+            "title": "Resources, energy & infrastructure",
+            "description": "Explore our activities across mineral exploration, mining, energy and infrastructure.",
+            "gold": {
+                "imageAlt": "Representative gold exploration imagery",
+                "category": "Gold exploration",
+                "title": "Gold exploration",
+                "description": "Masizi Maseyu and Mbarara Busheyni exploration interests and joint-venture alluvial gold mining."
+            },
+            "minerals": {
+                "imageAlt": "Representative mineral exploration imagery",
+                "category": "Mineral exploration",
+                "title": "Mineral exploration",
+                "description": "Iron ore exploration and the Gwembe Valley coal exploration prospect."
+            },
+            "energy": {
+                "imageAlt": "Representative power generation imagery",
+                "category": "Energy",
+                "title": "Renewables & power generation",
+                "description": "Renewable energy, the Kivu Power Plant (56 MW) and hydroelectric project interests."
+            },
+            "infrastructure": {
+                "imageAlt": "Representative commercial building imagery",
+                "category": "Infrastructure",
+                "title": "Kigali Financial Business Square",
+                "description": "Commercial infrastructure and development activities."
+            },
+            "industrial": {
+                "imageAlt": "Representative industrial facility imagery",
+                "category": "Industrial solutions",
+                "title": "Quarrying & concreting",
+                "description": "Industrial quarry activities, concreting products and hydromechanical and piping projects."
+            },
+            "trading": {
+                "imageAlt": "Representative freight and logistics imagery",
+                "category": "Mineral trading",
+                "title": "3T mineral trading",
+                "description": "Tin, tantalum and tungsten trading interests, with export and logistics capabilities."
+            }
+        },
+        "mining": {
+            "eyebrow": "Technical expertise",
+            "title": "Mining capabilities",
+            "description": "Exploration, technical planning, mineral processing and responsible resource development.",
+            "items": {
+                "licensing": "Licensing, permitting and stakeholder engagement",
+                "exploration": "Greenfield and brownfield mineral exploration",
+                "operations": "Iron ore, aggregates, gold and 3T mineral operations",
+                "planning": "Mine planning, surveying, geology and resource estimation",
+                "processing": "Crushing, screening and material processing",
+                "logistics": "Export, logistics and commodity trading",
+                "engineering": "State-of-the-art ground engineering solutions"
+            }
         }
     },
-
     "CapabilitiesSection": {
         "eyebrow": "OUR CAPABILITIES",
         "titleLine1": "Expertise built around",
         "titleHighlight": "operational excellence.",
         "description": "A structured approach to operations, technical coordination, resource management, and responsible working practices.",
         "learnMore": "Explore our capabilities",
+        "contactTitle": "Let's discuss your project.",
+        "contactDescription": "Tell us about your operational needs and project goals. Our team can discuss the next steps with you.",
+        "contactButton": "Contact our team",
         "operations": {
             "title": "Operational Coordination",
             "description": "Planning and coordination approaches that support organized, efficient operations."
@@ -115,7 +170,6 @@
             "description": "A commitment to responsible working practices, risk awareness, and applicable safety requirements."
         }
     },
-
     "ContactPage": {
         "eyebrow": "GET IN TOUCH",
         "titleLine1": "Let's discuss",
@@ -135,5 +189,20 @@
         "sending": "Sending...",
         "success": "Your message has been submitted successfully.",
         "error": "We couldn't send your message. Please try again later."
+    },
+    "Footer": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "projects": "Projects",
+        "capabilities": "Capabilities",
+        "contact": "Contact",
+        "description": "Explore our services, projects, and capabilities.",
+        "quickLinks": "Quick Links",
+        "getInTouch": "Get in Touch",
+        "contactDescription": "Have a project or enquiry? Get in touch with our team.",
+        "contactCta": "Contact Us",
+        "rights": "All rights reserved.",
+        "switchLanguage": "Switch language to {language}"
     }
 }

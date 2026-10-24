@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
-import Container from "../../../components/layout/Container";
-import ContactForm from "../../../components/contact/ContactForm";
+import Container from "@/src/components/layout/Container";
+import ContactForm from "@/src/components/contact/ContactForm";
 
 export default async function ContactPage() {
     const t = await getTranslations("ContactPage");
